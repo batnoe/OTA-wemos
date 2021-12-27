@@ -6,7 +6,7 @@
 #include <DHT.h>
 
 uint8_t broadcastAddress[] = {0xc8, 0xc9, 0xa3, 0xd2, 0x5a, 0xc8};
-#define DHTPIN 5    
+#define DHTPIN 13    
 #define DHTTYPE    DHT22     // DHT 22 (AM2302)
 DHT dht(DHTPIN, DHTTYPE);
 
